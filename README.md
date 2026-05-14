@@ -1,6 +1,6 @@
 # SmartAgent - 模块化 AI Agent 框架
 
-> 一个轻量级、可扩展的 AI Agent 框架，演示现代 Agent 开发的核心设计模式。
+> 一个轻量级、可扩展的 AI Agent 框架，符合现代 Agent 开发的核心设计模式。
 
 ## 项目亮点
 
