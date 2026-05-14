@@ -19,42 +19,11 @@
 | LLM 接口 | OpenAI API / 兼容接口 |
 | 向量存储 | ChromaDB |
 | 向量嵌入 | OpenAI Embeddings |
-| Web 框架 | FastAPI (可选) |
+| Web 框架 | FastAPI |
 | 测试 | pytest |
 
 ## 项目结构
 
-```
-smart-agent/
-├── src/
-│   ├── __init__.py
-│   ├── agent.py           # 核心 Agent 引擎
-│   ├── llm.py             # LLM 客户端封装
-│   ├── memory.py          # 记忆管理系统
-│   ├── tools/
-│   │   ├── __init__.py
-│   │   ├── base.py        # 工具基类
-│   │   ├── registry.py    # 工具注册中心
-│   │   ├── calculator.py  # 计算器工具
-│   │   ├── web_search.py  # 网络搜索工具
-│   │   ├── file_reader.py # 文件读取工具
-│   │   └── weather.py     # 天气查询工具
-│   └── prompts.py         # Prompt 模板管理
-├── examples/
-│   ├── basic_chat.py      # 基础对话示例
-│   ├── tool_agent.py      # 工具调用示例
-│   ├── rag_agent.py       # RAG 记忆示例
-│   └── react_agent.py     # ReAct 推理示例
-├── tests/
-│   ├── test_agent.py
-│   ├── test_tools.py
-│   └── test_memory.py
-├── docs/
-│   └── tutorial.md        # 完整技术教程
-├── config.py              # 配置管理
-├── requirements.txt
-└── README.md
-```
 
 ## 快速开始
 
